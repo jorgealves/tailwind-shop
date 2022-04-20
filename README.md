@@ -10,8 +10,6 @@ Homepage - home.html
 
 Produtos (todos) - products.html
 
-Produto individual - item.html 
-
 Login - login.html
 
 Register - register.html
