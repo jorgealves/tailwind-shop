@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>GameTic | Home</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="flex align-center justify-between bg-cyan-400 drop-shadow-md">
+        <a href="/src/home.html">
+            <img class="ml-60 w-1/8" src="/src/assets/logo2.png">
+        </a> 
+
+        <section class="flex self-center">
+            <a href="#">
+                <img class="w-6 h-8 bg-white" src="/src/assets/search.svg">
+            </a> 
+            <input class="w-96 h-8 drop-shadow-md mr-20" type="text" placeholder="Search...">
+        </section>
+
+        <section class="flex self-center">
+            <a href="/src/login.html" class="pr-5">
+                <img class="w-6" src="/src/assets/perfil.svg">
+            </a> 
+            <a href="/src/basket.html">
+                <img class="mr-60 w-6" src="/src/assets/cart.svg">
+            </a>
+        </section>
+    </nav>
+
+    <section id="hero-section" class="relative flex flex-col justify-center h-screen bg-[url('/src/assets/hero-image.jpg')] bg-cover bg-fixed overflow-hidden before:absolute before:-inset-1 before:bg-black before:opacity-75">
+        <div class="container mx-auto z-10">
+            <h1 class="font-semibold text-white text-8xl tracking-wider pb-2">GameTic</h1>
+            <a href="/src/products.html" class="font-extralight text-white text-3xl pl-2"> <span class="underline">Veja</span> os nossos jogos!</a>
+        </div> 
+    </section>
+
+    <footer class=" min-w-full min-h-2/6 bg-[#0c4a6e] block border overflow-hidden p-4">
+        <section class="min-w-full min-h-16 bg-white border-bottom-4 border-4 border-indigo-500/100 p-2 flex">
+            <div class="w-1/2 border-2 border-rose-600">GameTic</div>
+            <div class="w-1/2 border-2 border-rose-600">redes sociais</div>
+        </section>
+        <section class="box_2 min-w-full min-h-28 bg-white border-4 border-indigo-500/100 p-2 flex justify-around">
+            <div class="min-w-30 min-h-full m-4 border-2 border-rose-600">
+                <title class="">Login/Register</title>
+                <p>Are you already an Gametic user?</p>
+                <p>If not, What are you waiting for?</p>
+                <a href="/src/register.html">Register Now!!</p>
+                <button>Click here</button>
+            </div>
+            <div class="min-w-16 min-h-16 m-4 border-2 border-rose-600">
+                <p><a href="/src/contact.html">Contact us</a></p>
+            </div>
+            <div class="min-w-16 min-h-16 m-4 border-2 border-rose-600">
+                <title>About Us</title>
+            </div>
+            <div class="min-w-16 min-h-16 m-4 border-2 border-rose-600">
+                <title>Leave us a Comment!</title>
+                <input type="text">
+            </div>         
+        </section>
+    </footer>
+</body>
+</html>
