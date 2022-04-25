@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>CheckOut Page</title>
+</head>
+<body>
+    <!--Title CheckOut-->
+    <h1 class="text-3xl ml-8 mt-4 mb-4">CheckOut</h1>
+    <!--Main Container-->
+    <section class="block border-2 border-black w-full h-auto">   
+        <!--Inner Main Container ahaha-->
+        <div class="flex w-4/6">
+            <div class="block w-full h-auto ml-8 mb-8">
+                <!--Tittle Sign Up-->
+                <h1 class="text-4xl ml-4 mt-8">Sign Up</h1>
+                <!--1º block element (Login Option)-->
+                <div class="mt-8 border-2 border-black w-auto h-auto mb-8">
+                    <h1 class=" mt-4 text-3xl ml-4">Login</h1>
+                    <hr class="ml-4 mr-4 mt-2 mb-2">
+                    <p class="ml-4 w-auto">Returning Customer?</p>
+                    <p class="flex ml-4 mt-1 w-auto mb-8">Click<a class="ml-1 mr-1 underline text-black hover:text-red-600" href="">here</a> to sign. </p>
+                </div>
+                <!--2º block element (Creat acount)-->
+                <h1 class="text-4xl ml-4 mt-8 mb-6">Creat Acount</h1>
+                <div class="block border-2 border-black w-full h-80">
+                    <!--Email-->
+                    <p class="ml-4 mt-4 mb-2">*Enter your Email Address</p>
+                    <input class="border-2 border-black w-3/4 h-8 ml-4 mb-4"></input>
+                    <!--Password-->
+                    <p class="ml-4 mt-4 mb-2">*Create a Password</p>
+                    <input class="border-2 border-black w-3/4 h-8 ml-4 mb-4"></input>
+                    <!--Privacy Statement-->
+                    <div class="flex">
+                        <div class="bg-white ml-4 mb-4 w-4 h-4 border-2 border-black active:bg-black "></div><p class="text-xs ml-2 w-auto">I agree to the Terms Of Use and Privacy Statement</p>
+                    </div>
+                    <br>
+                    <!--Button Container-->
+                    <div class="flex">
+                        <button class="ml-8 mb-8 w-1/4 justify-center h-8 justify-left bg-sky-500 text-white hover:bg-sky-500/50">Creat Your Acount</button>
+                        <button class="ml-8 mr-4 mb-4 w-1/4 justify-center h-8 justify-left bg-sky-500 text-white hover:bg-sky-500/50">Login with Facebook</button>
+                    </div>
+                </div>
+                <!--Title Shipping Address-->
+                <h2 class="text-4xl ml-4 mt-8">Shipping Address</h2>
+                <!--3º block element (Shipping Address)-->
+                <div class="mt-8 border-2 border-black h-auto">
+                    <!--Country input-->
+                    <p class="ml-4 mt-4 mb-2 ">Country</p>
+                    <input class="list border-2 border-black w-1/4 h-8 ml-4 mb-4"></input>
+                    <!--Name input-->
+                    <p class="ml-4 mt-4 mb-2 ">Full Name (First and last name)</p>
+                    <input class="list border-2 border-black w-3/5 h-8 ml-4 mb-4"></input>
+                    <!--Adress 1 input-->
+                    <p class="ml-4 mt-4 mb-2 ">Adress Line 1</p>
+                    <input class="list border-2 border-black w-3/4 h-8 ml-4 mb-4"></input>
+                    <!--Adress 2 input-->
+                    <p class="ml-4 mt-4 mb-2 ">Adress Line 2</p>
+                    <input class="list border-2 border-black w-3/4 h-8 ml-4 "></input>
+                    <!--Flex Container-->
+                    <div class="flex mt-4">
+                        <!--City 2 input-->
+                        <div class="block">   
+                            <p class="ml-4 mt-4 mb-2 ">City</p>
+                            <input class="list border-2 border-black w-4/5 h-8 ml-4 mb-4"></input>
+                        </div>
+                        <!--Adress 2 input-->
+                        <div class="block">
+                            <p class="ml-4 mt-4 mb-2 ">Locality</p>
+                            <input class="list border-2 border-black w-4/5 h-8 ml-4 mb-4"></input>
+                        </div>
+                        <!--Zip input-->
+                        <div class="block">
+                            <p class="ml-4 mt-4 mb-2 ">Zip</p>
+                            <input class="list border-2 border-black w-4/5 h-8 ml-4 mb-4"></input>
+                        </div>
+                    </div>
+                    <!--Phone Number input-->
+                    <p class="ml-4 mt-4 mb-2 ">Phone Number</p>
+                    <input class="list border-2 border-black w-2/5 h-8 ml-4 mb-12"></input>
+                </div>
+            </div>
+            <!--Order Summary - fixed-->
+            <div class="fixed right-0 mr-32 mb-8 mt-8 w-1/5 h-auto">
+                 <!--Title -->
+                <h1 class="text-2xl ml-4 mb-4">Order Summary ( x Item)</h1>
+                <div class="block p-6 w-full h-1/2 border-2 border-black">
+                    <div class="flex justify-between  w-full h-6"><h4>Subtotal</h4><h4>$</h4></div><br>
+                    <div class="flex justify-between  w-full h-6"><h4>Shipping & Handling</h4><h4>FREE</h4></div><br>
+                    <div class="flex justify-between  w-full h-6"><h4>Tax</h4><h4>$</h4></div><br>       
+                    <hr><br>
+                    <div class="flex justify-between  w-full h-6"><h2>Total</h2><h2>$</h2></div><br>
+                     <!--Button to ThankYou PAge-->
+                    <div class="flex jsutify-center items-center">
+                        <a href="thankyou.html" class="flex justify-center items-center mb-4 w-full h-8  bg-sky-500 text-white hover:bg-sky-500/50">Place Order</a><br>
+                    </div>
+                    <h6 class="text-xs">By tapping Place Order, you agree to GameStop <a>Privacy Policy</a> and <a>Conditions of Use.</a></h6><br>
+                    <hr>
+                    <br>
+                    <h3>Cart</h3>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
